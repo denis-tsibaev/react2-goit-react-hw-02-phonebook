@@ -1,5 +1,19 @@
-function App() {
-    return <div className="App">888</div>;
-}
+import React, { Component } from 'react';
+import Section from './components/Section';
 
-export default App;
+export default class App extends Component {
+    state = {
+        contacts: [],
+        name: '',
+    };
+
+    render() {
+        return (
+            <div>
+                <Section>
+                    <p>qwe</p>
+                </Section>
+            </div>
+        );
+    }
+}
